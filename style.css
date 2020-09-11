@@ -1,0 +1,74 @@
+/* style.css */
+
+/*My colour palette
+https://colorhunt.co/palette/181367
+*/
+
+body {
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #black;
+  font-size: 45px;
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+  color: #668C80;
+  font-weight: lighter;
+  font-size: 25px;
+}
+a {
+  color: #e43f5a;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/*Customized style*/
+#banner {
+  text-align: center;
+  background: linear-gradient(-225deg, 
+    rgba(30,30,30,0.05) 10%, 
+    rgba(46,46,46,0.1) 30%), 
+    url("images/desktopyellow.jpg");
+  background-size: cover;
+  padding: 130px;
+  color: black;
+
+}
+#banner h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#banner p {
+  color: black;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+#footer {
+  padding: 10px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a {
+  color: lightgrey;
+}
+#footer a:hover {
+  color: white;
+}
+#footer p {
+  text-align: center;
+}
+
+.card {
+  padding: 50px;
+  font-weight: lighter;
+}
